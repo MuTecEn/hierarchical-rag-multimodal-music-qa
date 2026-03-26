@@ -8,40 +8,41 @@ This repository implements a hierarchical Retrieval-Augmented Generation (RAG) s
 
 These instructions guide you through setting up and running the RAG system.
 
-### 1. Clone the Repository and Create Environment
+## 1. Clone the Repository and Create Environment
 ```bash
 # Clone the repository
 git clone https://github.com/yourusername/hierarchical-rag-multimodal-music-qa.git
 cd hierarchical-rag-multimodal-music-qa
 ```
 
-# Create a local Python environment
+### Create a local Python environment
 ```bash
 python -m venv rag_env
 ```
-# Activate environment (Windows)
+### Activate environment (Windows)
 ```bash
 rag_env\Scripts\activate
 ```
-# Activate environment (macOS/Linux)
+### Activate environment (macOS/Linux)
 ```bash
 source rag_env/bin/activate
 ```
-# Install required packages
+### Install required packages
 ```bash
 pip install -r requirements.txt
 ```
-### 2. Prepare ChromaDB
+## 2. Prepare ChromaDB
 Create a folder for the vector database:
 
 ```bash
 mkdir chroma_db
 ```
 
-### 3. Set Up Jan Local Server
+## 3. Set Up Jan Local Server
 1. Download and install Jan locally.
-2. Start the server and make note of the API endpoint.
-3. Update the config.json file in this repo with your Jan API URL:
+2. Go to Settings, Local API Servers, and select Start Server.
+3. Make note of the API endpoint.
+4. Update the config.json file in this repo with your Jan API URL:
 ```bash
 {
     "jan_api_url": "http://localhost:8080"
@@ -49,12 +50,12 @@ mkdir chroma_db
 ```
 ### 4. Select a Model in Jan
 
-Open the Jan interface in your browser.
-Choose a model to interact with (e.g., Jan-v3-4b-base-instruct-Q4_K_XL).
-Make sure the model is running successfully.
+1. Open the Jan interface.
+2. Go to Settings, Model Providers, and choose a model to interact with (e.g., Jan-v3-4b-base-instruct-Q4_K_XL).
+3. Make sure the model is running successfully. (You can start a chat sayin "hello" to make sure)
 
 ### 5. Sanity Check
-Run a quick test to ensure the Jan API connection works:
+In your project terminal, run a quick test to ensure the Jan API connection works:
 ```bash
 python testjan.py
 ```
@@ -69,7 +70,7 @@ This will populate the chroma_db folder with embeddings for all dataset files.
 Use the query interface to interact with the system:
 ```bash
 python rag_query.py
-
+```
 Enter natural language questions about your dataset.
 
 
