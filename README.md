@@ -13,24 +13,30 @@ These instructions guide you through setting up and running the RAG system.
 # Clone the repository
 git clone https://github.com/yourusername/hierarchical-rag-multimodal-music-qa.git
 cd hierarchical-rag-multimodal-music-qa
+```
 
 # Create a local Python environment
+```bash
 python -m venv rag_env
-
+```
 # Activate environment (Windows)
+```bash
 rag_env\Scripts\activate
-
+```
 # Activate environment (macOS/Linux)
+```bash
 source rag_env/bin/activate
-
+```
 # Install required packages
+```bash
 pip install -r requirements.txt
-
+```
 ### 2. Prepare ChromaDB
 Create a folder for the vector database:
 
 ```bash
 mkdir chroma_db
+```
 
 ### 3. Set Up Jan Local Server
 1. Download and install Jan locally.
@@ -40,7 +46,7 @@ mkdir chroma_db
 {
     "jan_api_url": "http://localhost:8080"
 }
-
+```
 ### 4. Select a Model in Jan
 
 Open the Jan interface in your browser.
@@ -51,12 +57,12 @@ Make sure the model is running successfully.
 Run a quick test to ensure the Jan API connection works:
 ```bash
 python testjan.py
-
+```
 ### 6. Index Your Dataset
 Run the indexing script to prepare your multimodal data:
 ```bash
 python index_files.py
-
+```
 This will populate the chroma_db folder with embeddings for all dataset files.
 
 ### 7. Run RAG Queries
