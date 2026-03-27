@@ -9,13 +9,13 @@ Question Category: Dataset Structure: Data, Metadata, Paradata
 
 Question 1:
 Correctness / Logical Accuracy
-Rating (1–5): 5
+Rating (1–5): 2
 Completeness / Coverage
-Rating (1–5): 5
+Rating (1–5): 4
 Clarity / Interpretability
-Rating (1–5): 5
+Rating (1–5): 4
 Usefulness / Practical Value
-Rating (1–5): 5
+Rating (1–5): 2
 
 Question 2: 
 Correctness / Logical Accuracy
@@ -97,15 +97,15 @@ Rating (1–5): 4
 
 Question 9: 
 Correctness / Logical Accuracy
-Rating (1–5): 5
+Rating (1–5): 4
 Completeness / Coverage
 Rating (1–5): 5
 Clarity / Interpretability
 Rating (1–5): 5
 Usefulness / Practical Value
-Rating (1–5): 5
+Rating (1–5): 4
 Cross-Modal Reasoning Score – How effectively does the system perform semantic bridging across modalities?
-Rating (1–5): 5
+Rating (1–5): 4
 
 Question 10: 
 Correctness / Logical Accuracy
@@ -207,15 +207,15 @@ Question Category: Dataset Understanding and Summarization
 
 Question 19:
 Correctness / Logical Accuracy
-Rating (1–5): 5
+Rating (1–5): 4
 Completeness / Coverage
-Rating (1–5): 5
+Rating (1–5): 3
 Clarity / Interpretability
-Rating (1–5): 5
+Rating (1–5): 4
 Usefulness / Practical Value
-Rating (1–5): 5
+Rating (1–5): 4
 Summarization Score – How dense and useful is the high-level information provided, relative to the technical complexity of the underlying dataset?
-Rating (1–5): 5
+Rating (1–5): 4
 
 Question 20:
 Correctness / Logical Accuracy
@@ -231,15 +231,15 @@ Rating (1–5): 5
 
 Question 21:
 Correctness / Logical Accuracy
-Rating (1–5): 5
+Rating (1–5): 3
 Completeness / Coverage
-Rating (1–5): 5
+Rating (1–5): 4
 Clarity / Interpretability
-Rating (1–5): 5
+Rating (1–5): 4
 Usefulness / Practical Value
-Rating (1–5): 5
+Rating (1–5): 3
 Summarization Score – How dense and useful is the high-level information provided, relative to the technical complexity of the underlying dataset?
-Rating (1–5): 5
+Rating (1–5): 3
 
 Question Category: Creative and Exploratory Queries
 
@@ -275,23 +275,23 @@ Rating (1–5): 5
 
 Question 25:
 Correctness / Logical Accuracy
-Rating (1–5): 4
+Rating (1–5): 3
 Completeness / Coverage
 Rating (1–5): 4
 Clarity / Interpretability
-Rating (1–5): 2
-Usefulness / Practical Value
 Rating (1–5): 4
+Usefulness / Practical Value
+Rating (1–5): 3
 
 Question 26:
 Correctness / Logical Accuracy
-Rating (1–5): 5
+Rating (1–5): 2
 Completeness / Coverage
-Rating (1–5): 5
+Rating (1–5): 4
 Clarity / Interpretability
-Rating (1–5): 5
+Rating (1–5): 4
 Usefulness / Practical Value
-Rating (1–5): 5
+Rating (1–5): 2
 
 Question Category:
 
@@ -315,12 +315,12 @@ Rating (1–5): 5
 Usefulness / Practical Value
 Rating (1–5): 5
 
-Overall Correctness: 4.89
-Overall Completeness: 4.89
-Overall Clarity: 4.67
-Overall Usefulness: 4.82
-Overall CMR: 4.8
-Overall Summarization: 5
+Overall Correctness: 4.46
+Overall Completeness: 4.71
+Overall Clarity: 4.6
+Overall Usefulness: 4.42
+Overall CMR: 4.6
+Overall Summarization: 4
 
 ---------------------------
 
